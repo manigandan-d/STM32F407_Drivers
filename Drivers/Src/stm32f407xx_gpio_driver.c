@@ -1,10 +1,3 @@
-/*
- * stm32f407xx_gpio_driver.c
- *
- *  Created on: Jan 20, 2024
- *      Author: MANIGANDAN D
- */
-
 #include "stm32f407xx_gpio_driver.h"
 
 void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx, uint8_t EnorDi) {
