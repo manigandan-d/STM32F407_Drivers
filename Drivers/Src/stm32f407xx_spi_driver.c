@@ -1,10 +1,3 @@
-/*
- * stm32f407xx_spi_driver.c
- *
- *  Created on: Jan 20, 2024
- *      Author: MANIGANDAN D
- */
-
 #include "stm32f407xx_spi_driver.h"
 
 static void spi_txe_interrupt_handle(SPI_Handle_t *pSPIHandle);
