@@ -1,10 +1,3 @@
-/*
- * stm32f407xx_i2c_driver.c
- *
- *  Created on: Jan 20, 2024
- *      Author: MANIGANDAN D
- */
-
 #include "stm32f407xx_i2c_driver.h"
 
 void I2C_PeripheralControl(I2C_RegDef_t *pI2Cx, uint8_t EnorDi) {
