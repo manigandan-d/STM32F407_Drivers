@@ -1,10 +1,3 @@
-/*
- * stm32f407xx_usart_driver.c
- *
- *  Created on: Jan 20, 2024
- *      Author: MANIGANDAN D
- */
-
 #include "stm32f407xx_usart_driver.h"
 
 void USART_PeriClockControl(USART_RegDef_t *pUSARTx, uint8_t EnorDi) {
